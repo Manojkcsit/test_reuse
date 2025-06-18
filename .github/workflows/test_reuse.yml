@@ -1,0 +1,8 @@
+name: Call Hello Workflow
+
+on:
+  #push:  # Trigger this workflow on push to any branch
+
+jobs:
+  call-hello:
+    uses: ./.github/workflows/hello-world.yml  # Reuse local workflow
